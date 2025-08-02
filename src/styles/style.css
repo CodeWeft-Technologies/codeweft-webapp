@@ -1944,15 +1944,15 @@ background-clip: text;
     }
   }
   .copyright {
-    font-size: 0.16rem;
+    font-size: 0.6rem;
     color: #aaa;
     text-align: center;
     margin-top: 20px;
   }
   @media (max-width: 768px) {
     .copyright {
-      font-size: 0.10rem;   
-      margin-top: 16px;
+      font-size: 0.4rem;   
+      margin-top: 10px;
     }
   }
   .products-content {
@@ -2059,5 +2059,44 @@ background-clip: text;
     font-size: 1.2rem;
     color: #ddd;
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+  }
+  @media (max-width: 768px) {
+    .footer-content.new-layout {
+      flex-direction: column; /* stack columns */
+      align-items: center; /* center items */
+      flex-wrap: wrap; /* allow wrapping */
+      gap: 28px; /* space between sections */
+      padding: 7px 0;
+    }
+  
+    .footer-column {
+      width: 100%; /* full width for each column */
+      align-items: center;
+      text-align: center;
+      gap: 8px;
+    }
+  
+    .footer-links a,
+    .footer-card,
+    .social-link {
+      font-size: 0.80rem;
+      padding: 6px 10px;
+      width: fit-content;
+      margin: 0 auto; /* center buttons */
+    }
+  }
+  @media (max-width: 768px) {
+    .copyright {
+      font-size: 0.6rem;  /* smaller, clean size */
+      margin-top: 10px;
+      line-height: 1.8;
+      text-align: center;
+      color: #888; /* softer color */
+    }
+  }
+  .copyright {
+    opacity: 0.8;
+    font-weight: 400;
+    letter-spacing: 0.3px;
   }
   

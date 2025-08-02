@@ -16,13 +16,13 @@ const Footer = () => (
         <p className="footer-heading gradient-title">Follow Us</p>
         <div className="social-links">
           <a href="https://www.linkedin.com/company/codeweft/" target="_blank" rel="noreferrer" className="social-link">
-            <FaLinkedin size={18} /> LinkedIn
+            <FaLinkedin size={12} /> LinkedIn
           </a>
           <a href="https://www.facebook.com/profile.php?id=61573581218159" target="_blank" rel="noreferrer" className="social-link">
-            <FaFacebook size={18} /> Facebook
+            <FaFacebook size={12} /> Facebook
           </a>
           <a href="https://www.instagram.com/codeweft.ai?igsh=cmxkYThtdTRtdnds" target="_blank" rel="noreferrer" className="social-link">
-            <FaInstagram size={18} /> Instagram
+            <FaInstagram size={12} /> Instagram
           </a>
         </div>
       </div>
@@ -31,10 +31,10 @@ const Footer = () => (
       <div className="footer-column products shift-left">
         <p className="footer-heading gradient-title">Our Products</p>
         <div className="footer-card-links">
-          <a href="#chat-bots" className="footer-card"><FaRobot size={16} /> AI Chat Assistant</a>
-          <a href="#voice-assistant" className="footer-card"><FaMicrophoneAlt size={16} /> AI Voice Assistant</a>
-          <a href="#appointment-booking" className="footer-card"><FaCalendarAlt size={16} /> Appointment Booking</a>
-          <a href="#phone-agent" className="footer-card"><FaPhoneAlt size={16} /> Phone Calling Agent</a>
+          <a href="#chat-bots" className="footer-card"><FaRobot size={10} /> AI Chat Assistant</a>
+          <a href="#voice-assistant" className="footer-card"><FaMicrophoneAlt size={10} /> AI Voice Assistant</a>
+          <a href="#appointment-booking" className="footer-card"><FaCalendarAlt size={10} /> Appointment Booking</a>
+          <a href="#phone-agent" className="footer-card"><FaPhoneAlt size={10} /> Phone Calling Agent</a>
         </div>
       </div>
 
@@ -42,10 +42,10 @@ const Footer = () => (
       <div className="footer-column industries shift-right">
         <p className="footer-heading gradient-title">Industries</p>
         <div className="footer-card-links">
-          <a href="#solutions" className="footer-card"><FaStethoscope size={14} /> Healthcare</a>
-          <a href="#solutions" className="footer-card"><FaBuilding size={14} /> Real Estate</a>
-          <a href="#solutions" className="footer-card"><FaGraduationCap size={14} /> Education</a>
-          <a href="#solutions" className="footer-card"><FaShoppingCart size={14} /> Retail & E-Commerce</a>
+          <a href="#solutions" className="footer-card"><FaStethoscope size={10} /> Healthcare</a>
+          <a href="#solutions" className="footer-card"><FaBuilding size={10} /> Real Estate</a>
+          <a href="#solutions" className="footer-card"><FaGraduationCap size={10} /> Education</a>
+          <a href="#solutions" className="footer-card"><FaShoppingCart size={10} /> Retail & E-Commerce</a>
         </div>
       </div>
 
