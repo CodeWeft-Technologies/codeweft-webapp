@@ -42,10 +42,10 @@ const Footer = () => (
       <div className="footer-column industries shift-right">
         <p className="footer-heading gradient-title">Industries</p>
         <div className="footer-card-links">
-          <a href="#solutions" className="footer-card"><FaStethoscope size={16} /> Healthcare</a>
-          <a href="#solutions" className="footer-card"><FaBuilding size={16} /> Real Estate</a>
-          <a href="#solutions" className="footer-card"><FaGraduationCap size={16} /> Education</a>
-          <a href="#solutions" className="footer-card"><FaShoppingCart size={16} /> Retail & E-Commerce</a>
+          <a href="#solutions" className="footer-card"><FaStethoscope size={14} /> Healthcare</a>
+          <a href="#solutions" className="footer-card"><FaBuilding size={14} /> Real Estate</a>
+          <a href="#solutions" className="footer-card"><FaGraduationCap size={14} /> Education</a>
+          <a href="#solutions" className="footer-card"><FaShoppingCart size={14} /> Retail & E-Commerce</a>
         </div>
       </div>
 

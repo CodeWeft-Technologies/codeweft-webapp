@@ -1578,7 +1578,7 @@ background-clip: text;
   
   footer .copyright {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #888;
     margin-top: 30px;
   }
@@ -1861,7 +1861,7 @@ background-clip: text;
   
     .footer-card-links a,
     .social-links a {
-      font-size: 0.8rem;
+      font-size: 0.6rem;
       margin-bottom: 4px;
       display: block;
       white-space: nowrap;
@@ -1877,13 +1877,13 @@ background-clip: text;
   
     .footer {
       padding: 20px 10px;
-      font-size: 0.65rem;
+      font-size: 0.45rem;
     }
   
     .copyright {
-      font-size: 0.45rem;
+      font-size: 0.20rem;
       text-align: center;
-      margin-top: 20px;
+      margin-top: 18px;
     }
   }
   .footer-logo-text {
@@ -1944,14 +1944,14 @@ background-clip: text;
     }
   }
   .copyright {
-    font-size: 0.65rem;
+    font-size: 0.16rem;
     color: #aaa;
     text-align: center;
     margin-top: 20px;
   }
   @media (max-width: 768px) {
     .copyright {
-      font-size: 0.30rem;   
+      font-size: 0.10rem;   
       margin-top: 16px;
     }
   }
@@ -2015,18 +2015,18 @@ background-clip: text;
   @media (max-width: 768px) {
     .products-filter {
       display: flex;
-      flex-wrap: nowrap;         /* ❌ Prevent wrapping */
-      overflow-x: auto;          /* ✅ Enable horizontal scrolling */
+      flex-wrap: nowrap;         
+      overflow-x: auto;          
       gap: 6px;
       padding-bottom: 4px;
-      -webkit-overflow-scrolling: touch; /* Smooth scroll on mobile */
+      -webkit-overflow-scrolling: touch; 
     }
   
     .filter-btn {
-      flex: 0 0 auto;            /* Prevent buttons from shrinking */
+      flex: 0 0 auto;            
       font-size: 0.70rem;
       padding: 3px 6px;
-      white-space: nowrap;       /* Keep text on one line */
+      white-space: nowrap;      
     }
   
     /* Optional: Hide scrollbar in mobile for cleaner look */
